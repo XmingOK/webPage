@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title>首页-西安东电流体技术有限公司</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- common header start -->
+    <div class="head">
+        <div class="wrapWidth clearfix">
+            <a href="index.html" class="headLogo">
+                <img src="images/headLogo.png" width="260" height="65" alt="东电流体">
+            </a>
+            <dl class="headTel">
+                <dt>咨询服务热线</dt>
+                <dd><a href="tel:029-83599106">029-83599106</a></dd>
+            </dl>
+            <div class="headSearch clearfix">
+                <input type="text" class="headSearchInner" placeholder="请输入产品搜索关键词">
+                <button class="headSearchSubmit"
+                    onclick="window.location.href='html/searchResult.html'"><i></i>搜索</button>
+            </div>
+            <i class="phoneSearchIcon hide"></i>
+        </div>
+    </div>
+    <!-- 手机搜索框 -->
+    <div class="phoneSearch clearfix hide">
+        <input type="text" class="phoneSearchInner" placeholder="请输入产品搜索关键词">
+        <button class="phoneSearchSubmit" onclick="window.location.href='html/searchResult.html'"><i></i>搜索</button>
+    </div>
+    <!-- pc导航 -->
+    <div class="nav">
+        <div class="wrapWidth clearfix">
+            <div class="navItem">
+                <h2><a href="index.html">首页</a></h2>
+            </div>
+            <div class="navItem">
+                <h2><a href="html/industry.html">行业应用</a></h2>
+                <ul>
+                    <li><a href="html/industryDetail.html">石油化工</a></li>
+                    <li><a href="html/industryDetail.html">煤化工</a></li>
+                    <li><a href="html/industryDetail.html">天然气</a></li>
+                    <li><a href="html/industryDetail.html">通用行业</a></li>
+                </ul>
+            </div>
+            <div class="navItem">
+                <h2><a href="html/product.html">产品展示</a></h2>
+                <ul>
+                    <li><a href="html/product.html">特种阀内件</a></li>
+                    <li><a href="html/product.html">机械密封</a></li>
+                </ul>
+            </div>
+            <div class="navItem">
+                <h2><a href="html/service.html">服务支持</a></h2>
+                <ul>
+                    <li><a href="html/serviceList.html">现场技术服务</a></li>
+                    <li><a href="html/serviceList.html">工程服务</a></li>
+                </ul>
+            </div>
+            <div class="navItem">
+                <h2><a href="html/about.html">关于我们</a></h2>
+                <ul>
+                    <li><a href="html/about.html">公司简介</a></li>
+                    <li><a href="html/news.html">新闻资讯</a></li>
+                </ul>
+            </div>
+            <div class="navItem">
+                <h2><a href="html/contact.html">联系我们</a></h2>
+            </div>
+        </div>
+    </div>
+    <!-- 手机导航 -->
+    <div class="headNav">
+        <i class="headNavIcon"></i>
+        <div class="headNavCont">
+            <div class="headNavMask"></div>
+            <div class="headNavMenu">
+                <h3>菜单导航</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="html/industry.html">行业应用</a>
+                        <i></i>
+                        <div class="headNavSub">
+                            <a href="html/industryDetail.html">石油化工</a>
+                            <a href="html/industryDetail.html">煤化工</a>
+                            <a href="html/industryDetail.html">天然气</a>
+                            <a href="html/industryDetail.html">通用行业</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="html/product.html">产品展示</a>
+                        <i></i>
+                        <div class="headNavSub">
+                            <a href="html/product.html">特种阀内件</a>
+                            <a href="html/product.html">机械密封</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="html/service.html">服务支持</a>
+                        <i></i>
+                        <div class="headNavSub">
+                            <a href="html/serviceList.html">现场技术服务</a>
+                            <a href="html/serviceList.html">工程服务</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="html/about.html">关于我们</a>
+                        <i></i>
+                        <div class="headNavSub">
+                            <a href="html/about.html">公司简介</a>
+                            <a href="html/news.html">新闻资讯</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="html/contact.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="headNavClose"></i>
+        </div>
+    </div>
+    <!-- common header end -->
+    <!-- pc banner -->
+    <div class="indexBanner" id="indexBannerPc">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner1.jpg" alt="东电流体">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner1.jpg" alt="东电流体">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner1.jpg" alt="东电流体">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </div>
+    <!-- 手机banner -->
+    <div class="indexBanner hide" id="indexBannerPhone">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/banner1s.jpg" alt="东电流体">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner1s.jpg" alt="东电流体">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/banner1s.jpg" alt="东电流体">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </div>
+    <div class="indexAbout">
+        <div class="indexCompany">
+            <h2>西安东电流体技术有限公司</h2>
+            <p>黑水调节阀是水煤浆气化工艺关键阀门之一，其运行的可靠性直接影响了煤气化装置的运行效率；由于阀门的工作介质具有很强的冲蚀性，且工况恶略，前后压差大；故伴有振动发生和闪蒸现象，易导致阀芯、阀座损坏和失效！<br />
+                西安东电信息技术有限公司，针对这种调节阀的腐蚀失效机理，硬化处理等方面均有深入的研究！</p>
+        </div>
+        <div class="indexIndustry clearfix wrapWidth">
+            <a href="html/industryDetail.html">
+                <img src="images/indexIndustry1.png">
+                <h3>石油化工</h3>
+                <p>服务支持快速反应及时应对，力争将停工时间最小化</p>
+            </a>
+            <a href="html/industryDetail.html">
+                <img src="images/indexIndustry2.png">
+                <h3>煤化工</h3>
+                <p>用全生命周期方案应对化工生产中的恶劣环境</p>
+            </a>
+            <a href="html/industryDetail.html">
+                <img src="images/indexIndustry3.png">
+                <h3>天然气</h3>
+                <p>我们的能源解决方案标准安全品质严苛，高品质产品保证</p>
+            </a>
+            <a href="html/industryDetail.html">
+                <img src="images/indexIndustry4.png">
+                <h3>通用行业</h3>
+                <p>我们将一如既往地提供可靠高效的解决方案</p>
+            </a>
+        </div>
+    </div>
+    <div class="indexProduct">
+        <div class="wrapWidth clearfix">
+            <div class="indexProductTitle fl">
+                <h2>产品推荐</h2>
+                <p>十几年的特种阀门维护经验<br />
+                    默契的烧结厂家及完善的机加工设备</p>
+            </div>
+            <ul class="indexProductTab fr">
+                <li>特种阀内件</li>
+                <li>机械密封</li>
+            </ul>
+        </div>
+        <div class="indexProductList wrapWidth">
+            <div class="indexProductItem swiper-container" id="product1">
+                <div class="swiper-wrapper">
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb1.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb2.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb3.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb4.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb1.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb2.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb3.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb4.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- 前往分类一的列表 -->
+                <a href="html/product.html" class="indexProductMore">MORE +</a>
+
+            </div>
+            <div class="indexProductItem swiper-container" id="product2">
+                <div class="swiper-wrapper">
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb5.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb6.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb7.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                    <a href="html/productDetail.html" class="swiper-slide" style="background-image: url()">
+                        <div class="indexProductThumb">
+                            <img src="images/productThumb8.jpg" alt="产品名称">
+                        </div>
+                        <h3>产品名称</h3>
+                    </a>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- 前往分类二的列表 -->
+                <a href="html/product.html" class="indexProductMore">MORE +</a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="indexService">
+        <div class="indexServiceTitle">
+            <h2>我们的服务</h2>
+            <p>西安东电信息技术有限公司，针对这种调节阀的腐蚀失效机理，硬化处理等方面均有深入的研究！无论您是检修周期还是临时需要，一支专业的维修队伍随时为您服务！</p>
+        </div>
+        <div class="wrapWidth clearfix">
+            <div class="indexServiceIcon fr">
+                <ul>
+                    <li><img src="images/indexServiceIcon1.png">品质</li>
+                    <li><img src="images/indexServiceIcon2.png">高效</li>
+                    <li><img src="images/indexServiceIcon3.png">专业</li>
+                </ul>
+                <dl>
+                    <dt>我们致力于做您身边的维修工</dt>
+                    <dd>无论您是检修周期还是临时需要，一支专业的维修队伍随时为您服务！</dd>
+                </dl>
+            </div>
+            <div class="indexServiceItem fl">
+                <div class="indexServiceItemBg"></div>
+                <a href="html/serviceList.html">
+                    <h3>现场技术服务</h3>
+                    <p>ON-SITE TECHNICAL SERVICES</p>
+                    <i>01</i>
+                </a>
+                <a href="html/serviceList.html" class="active">
+                    <h3>工程服务</h3>
+                    <p>ENGINEERING SERVICES</p>
+                    <i>02</i>
+                </a>
+                <a href="html/service.html" class="indexSErviceItemMore">
+                    更多优质服务
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="indexContact">
+        <ul class="indexContactItem wrapWidth">
+            <li>
+                <img src="images/indexContactTel.png">
+                <p>咨询热线<br />
+                    <a href="tel:029-83599106">029-83599106</a></p>
+            </li>
+            <li>
+                <img src="images/indexContactAddr.png">
+                <p>公司地址<br />
+                    中国 · 陕西 · 西安</p>
+            </li>
+            <li>
+                <img src="images/indexContactMail.png">
+                <p>联系邮箱<br />
+                    <a href="mailto:wphzky@126.com">wphzky@126.com</a></p>
+            </li>
+        </ul>
+        <div class="indexNews swiper-container">
+            <div class="swiper-wrapper">
+                <a href="html/newsDetail.html" class="swiper-slide">
+                    <h3>东电流体官网最新版本已上线11</h3>
+                    <p class="indexNewsTime">2019-09-10</p>
+                    <p class="indexNewsIntro">
+                        黑水调节阀是水煤浆气化工艺关键阀门之一，其运行的可靠性直接影响了煤气化装置的运行效率；由于阀门的工作介质具有很强的冲蚀性，且工况恶略，前后压差大；故伴有振动发生和闪蒸现象，易导致阀芯、阀座损坏和失效！西安东电信息技术有限公司，针对这种调节阀的腐蚀失效机理，硬化处理等方面均有深入的研究！
+                    </p>
+                </a>
+                <a href="html/newsDetail.html" class="swiper-slide">
+                    <h3>东电流体官网最新版本已上线22</h3>
+                    <p class="indexNewsTime">2019-09-10</p>
+                    <p class="indexNewsIntro">
+                        黑水调节阀是水煤浆气化工艺关键阀门之一，其运行的可靠性直接影响了煤气化装置的运行效率；由于阀门的工作介质具有很强的冲蚀性，且工况恶略，前后压差大；故伴有振动发生和闪蒸现象，易导致阀芯、阀座损坏和失效！西安东电信息技术有限公司，针对这种调节阀的腐蚀失效机理，硬化处理等方面均有深入的研究！
+                    </p>
+                </a>
+                <a href="html/newsDetail.html" class="swiper-slide">
+                    <h3>东电流体官网最新版本已上线33</h3>
+                    <p class="indexNewsTime">2019-09-10</p>
+                    <p class="indexNewsIntro">
+                        黑水调节阀是水煤浆气化工艺关键阀门之一，其运行的可靠性直接影响了煤气化装置的运行效率；由于阀门的工作介质具有很强的冲蚀性，且工况恶略，前后压差大；故伴有振动发生和闪蒸现象，易导致阀芯、阀座损坏和失效！西安东电信息技术有限公司，针对这种调节阀的腐蚀失效机理，硬化处理等方面均有深入的研究！
+                    </p>
+                </a>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="foot footIndex">
+        <!-- common footer start -->
+        <div class="wrapWidth footInner clearfix">
+            <div class="footMenu">
+                <dl>
+                    <dt><a href="html/industry.html">行业应用</a></dt>
+                    <dd><a href="html/industryDetail.html">石油化工</a></dd>
+                    <dd><a href="html/industryDetail.html">煤化工</a></dd>
+                    <dd><a href="html/industryDetail.html">天然气</a></dd>
+                    <dd><a href="html/industryDetail.html">通用行业</a></dd>
+                </dl>
+                <dl>
+                    <dt><a href="html/product.html">产品展示</a></dt>
+                    <dd><a href="html/product.html">特种阀内件</a></dd>
+                    <dd><a href="html/product.html">机械密封</a></dd>
+                </dl>
+                <dl>
+                    <dt><a href="html/service.html">服务支持</a></dt>
+                    <dd><a href="html/serviceList.html">现场技术服务</a></dd>
+                    <dd><a href="html/serviceList.html">工程服务</a></dd>
+                </dl>
+                <dl>
+                    <dt><a href="html/about.html">关于我们</a></dt>
+                    <dd><a href="html/about.html">公司简介</a></dd>
+                    <dd><a href="html/news.html">新闻资讯</a></dd>
+                </dl>
+                <dl>
+                    <dt><a href="html/contact.html">联系我们</a></dt>
+                    <dd><a href="html/contact.html">联系方式</a></dd>
+                </dl>
+            </div>
+            <ul class="footErweima">
+                <li><img src="images/erweima.jpg">手机访问</li>
+                <li><img src="images/erweima.jpg">关注我们 </li>
+            </ul>
+        </div>
+        <div class="footIcp">
+            <p>Copyright © 西安东电流体技术有限公司 All Rights Reserved. </p>
+            <p>陕ICP备********* 网站建设：<a href="http://www.moicp.com" target="_blank">联硕网络</a></p>
+        </div>
+        <div id="backTop"></div>
+        <!-- common footer end -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var mySwiper1 = new Swiper('#indexBannerPc .swiper-container', {
+                autoplay: 3500,
+                autoplayDisableOnInteraction: false,
+                loop: true,
+                pagination: '#indexBannerPc .swiper-pagination',
+                prevButton: '#indexBannerPc .swiper-button-prev',
+                nextButton: '#indexBannerPc .swiper-button-next',
+                paginationClickable: true,
+                observer: true,
+                observeParents: true,
+            });
+            var mySwiper2 = new Swiper('#indexBannerPhone .swiper-container', {
+                autoplay: 3500,
+                autoplayDisableOnInteraction: false,
+                loop: true,
+                pagination: '#indexBannerPhone .swiper-pagination',
+                prevButton: '#indexBannerPc .swiper-button-prev',
+                nextButton: '#indexBannerPc .swiper-button-next',
+                paginationClickable: true,
+                observer: true,
+                observeParents: true,
+            });
+            new tabBox(".indexProductTab li", ".indexProductItem");
+            var windowWidth = $(window).width();
+            var mySwiper3;
+            if (windowWidth > 769) {
+                mySwiper3 = new Swiper('#product1', {
+                    autoplay: 3500,
+                    autoplayDisableOnInteraction: false,
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    prevButton: '#product1 .swiper-button-prev',
+                    nextButton: '#product1 .swiper-button-next',
+                    observer: true,
+                    observeParents: true,
+
+                });
+
+            } else {
+                mySwiper3 = new Swiper('#product1', {
+                    autoplay: 3500,
+                    autoplayDisableOnInteraction: false,
+                    slidesPerView: 2,
+                    slidesPerColumn: 2,
+                    spaceBetween: 15,
+                    pagination: '#product1 .swiper-pagination',
+                    observer: true,
+                    observeParents: true,
+
+                });
+            }
+            var mySwiper4;
+            if (windowWidth > 769) {
+                mySwiper4 = new Swiper('#product2', {
+                    autoplay: 3500,
+                    autoplayDisableOnInteraction: false,
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    prevButton: '#product2 .swiper-button-prev',
+                    nextButton: '#product2 .swiper-button-next',
+                    observer: true,
+                    observeParents: true,
+                });
+            } else {
+                mySwiper4 = new Swiper('#product2', {
+                    autoplay: 3500,
+                    autoplayDisableOnInteraction: false,
+                    slidesPerView: 2,
+                    slidesPerColumn: 2,
+                    spaceBetween: 15,
+                    pagination: '#product2 .swiper-pagination',
+                    observer: true,
+                    observeParents: true,
+                });
+            }
+            //浏览器窗口大小变化时
+            $(window).resize(function () {
+
+            });
+            $(".indexServiceItem a").mouseover(function () {
+                var serviceItem = $(this).position().top;
+                var serviceItemX = $(this).position().left;
+                $(".indexServiceItemBg").css("top", serviceItem);
+                $(".indexServiceItemBg").css("left", serviceItemX);
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+            $(".indexServiceItem").mouseleave(function () {
+                var serviceItem2 = $(this).children("a").eq(1).position().top;
+                var serviceItem2X = $(this).children("a").eq(1).position().left;
+                $(".indexServiceItemBg").css("top", serviceItem2);
+                $(".indexServiceItemBg").css("left", serviceItem2X);
+                $(this).children("a").removeClass("active");
+                $(this).children("a").eq(1).addClass("active");
+            });
+            var mySwiper5 = new Swiper('.indexNews', {
+                autoplay: 3500,
+                autoplayDisableOnInteraction: false,
+                spaceBetween: 110,
+                pagination: '.indexNews .swiper-pagination',
+                paginationClickable: true
+            });
+        })
+    </script>
+</body>
+
+</html>
